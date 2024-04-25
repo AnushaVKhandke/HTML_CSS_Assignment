@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+.center {
+    margin: 0 -50% 0 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    padding: 5%;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+}
+.create{
+        background-color: rgb(165, 31, 165);
+        color: #fff;
+        height: 50px;
+        width: 100vw;
+}
+.create h2{
+        text-align: center;
+        padding-top: 5px;
+    
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+input{
+    
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        border: 2px solid black;
+        border-radius: 6px;
+        width: 350px;
+        padding: 10px 10px;  
+    
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.continue input{
+    text-align: center;
+    background-color: rgb(165, 31, 165);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.div1{
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.div1 .d1{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    position: relative;
+    left: 0;
+    
+}
+.div1 p{
+    position: absolute;
+    margin-top: -1.5rem;
+    width: 341px;
+    text-align: left;
+    margin-left: 30px;
+}
